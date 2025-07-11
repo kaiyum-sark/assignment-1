@@ -93,6 +93,10 @@ main{
   align-items: center;
   
 }
+.preview-img{
+  width: 400px ;
+  height: 300px;
+}
 .live-preview-text{
   margin-bottom: 20px;
 }
@@ -200,6 +204,7 @@ main{
   display: block;
   width: 100%;
   padding: 5px;
+  text-align: left;
  }
  .form input{
   width: 80%;
@@ -222,5 +227,30 @@ main{
   font-family: "Inter", sans-serif;
  }
  .forms button{
-  width: 90%;
+  margin: 10px;
+  width: 80%;
+ }
+ footer{
+  background-color: white;
+  text-align: center;
+  height: 100%;
+ }
+ .footer-div{
+  margin: 200px 300px;
+  padding: 100px 0px ;
+ }
+
+ footer h1{
+  font-size: 100px;
+  color: #4E47FF;
+  font-weight: 900;
+ }
+ .footer-div p{
+  margin-bottom: 20px;
+ }
+ .footer-div a{
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 20px;
+  color: #252432;
  }
