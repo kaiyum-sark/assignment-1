@@ -26,7 +26,7 @@ body{
   color: white;
   background-color: #4E47FF;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: bold;
   padding: 12px 36px;
 }
@@ -157,3 +157,25 @@ main{
 .user-name img{
   border-radius: 50%;
 }
+
+/* Focused Templates Area  */ 
+ .focus-templates{
+  display: block;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  margin: 30px auto;
+  padding: 70px 150px;
+  border-radius: 30px;
+ }
+ .template{
+  padding: 10px;
+  margin: 20px auto;
+  
+ }
+ .template img{
+  border-radius: 20px;
+  width: 80%;
+ }
+
+
