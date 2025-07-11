@@ -26,7 +26,7 @@ body{
   color: white;
   background-color: #4E47FF;
   border-radius: 10px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   padding: 12px 36px;
 }
@@ -178,4 +178,49 @@ main{
   width: 80%;
  }
 
-
+/* Contact us area  */
+ .contact-us{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+ }
+ .contact-us h1{
+  font-size: 90px;
+  width: 50%;
+ }
+ .forms{
+  display: block;
+  width: 50%;
+  text-align: start;
+ }
+ .form{
+  display: block;
+  width: 100%;
+  padding: 5px;
+ }
+ .form input{
+  width: 80%;
+  height: 70px;
+  padding: 0 20px;
+  border-radius: 10px;
+  border: none;
+ }
+ .form textarea{
+  
+  width: 80%;
+  height: 70px;
+  padding: 0 20px;
+  border-radius: 10px;
+  border: none;
+ }
+ .form label{
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+ }
+ .forms button{
+  width: 90%;
+ }
